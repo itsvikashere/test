@@ -4,10 +4,11 @@
  * Date: 23-05-2024
  * */
 
-#inclue <stdio.h>
+#include <stdio.h>
 
 int main(){
-printf("hello world");
+printf("\n Hello World \n");
 return 0;
 }
+
 

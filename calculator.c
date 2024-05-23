@@ -34,14 +34,14 @@ int main(){
 		printf("%d\n",a-b);
 	}
 	else if(n==3){
+		if(b == 0){
+			printf("Second value cannot be zero \n");
+			continue;
+		}
 		printf("%d\n",a/b);
 	}
 	else if(n==4){
 		printf("%d\n",a*b);
-	}
-	else if(n == 5){
-		printf("Exit");
-		p = 1;
 	}
 	else{
 		printf("Enter vaild option\n");

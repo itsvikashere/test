@@ -17,7 +17,7 @@ int main(){
 	printf("\n Please First Enter Weight(kg)  And then enter height in (meters) \n");
 	scanf("%d%d",&w,&h);
 	float bmi;
-	bmi = w/h;
+	bmi = w/(h*h);
 	if(bmi < 18.5){
 		printf("Underweight \n");
 	}
